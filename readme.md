@@ -1,8 +1,13 @@
 
+
 # MCP Proxmox AI Operator 🤖
 
 An intelligent companion for your Proxmox data center.  
 This project enables natural language control of Proxmox clusters—either as an MCP (Model Context Protocol) server for integrations like LibreChat or as an interactive CLI bot.
+
+---
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_tdyfq9tdyfq9tdyf" src="https://github.com/user-attachments/assets/817359aa-4ac9-427a-a09d-7fa5e1b736f6" />
 
 ---
 
