@@ -1,0 +1,14 @@
+# Proxmox API Schnittstelle
+proxmoxer>=2.0.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# KI-Schnittstelle (Lokal)
+ollama>=0.1.0
+fastmcp
+mcp[cli]
+
+
+uvicorn
+starlette
+python-dotenv

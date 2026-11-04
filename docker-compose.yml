@@ -1,0 +1,13 @@
+services:
+  proxmox-ai:
+    build: .
+    container_name: proxmox-ai-operator   
+    command: python mcp_server.py
+    ports:
+      - "8000:8000"
+    environment:
+      - UVICORN_HOST=0.0.0.0
+      - UVICORN_PORT=8000
+    restart: unless-stopped
+    env_file:
+      - .env
